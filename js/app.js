@@ -1,8 +1,8 @@
 // Build menu 
-let sectionLenght = document.querySelectorAll("section").length;
+let sectionLength = document.querySelectorAll("section").length;
 let items = [];
 
-for (let j = 1; j < sectionLenght + 1; j++) {
+for (let j = 1; j < sectionLength + 1; j++) {
     let newItem = "Section " + j;
     items.push(newItem);
 }
